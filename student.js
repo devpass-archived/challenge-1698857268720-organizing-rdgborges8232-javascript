@@ -1,18 +1,20 @@
 class Student {
   constructor(name, age, major) {
-    // Add your solution here!
+    this.name = name;
+    this.age = age;
+    this.major = major;
   }
 
   getName() {
-    // Add your solution here!
+    return this.name;
   }
 
   getAge() {
-    // Add your solution here!
+    return this.age;
   }
 
   getMajor() {
-    // Add your solution here!
+    return this.major;
   }
 }
 
